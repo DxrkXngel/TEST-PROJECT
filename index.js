@@ -19,7 +19,7 @@ function rollDice() {
         diceResult.textContent = 'No value found , please try adding a value.';
         diceImages.textContent = " "
         console.log("No value found");
-
+        
     }
     else {
 
