@@ -1,0 +1,29 @@
+#container {
+    margin: auto;
+    max-width: 350px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#sButton {
+    background-color: rgb(0, 153, 255);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+}
+
+#diceImages img {
+
+    width: 150px;
+    margin: 5px;
+
+}
+
+#diceResult {
+
+    padding-top: 5px;
+
+}
