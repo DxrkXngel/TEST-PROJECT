@@ -22,7 +22,7 @@ diceImages.innerHTML = images.join('');
 if(diceNumber == '' || '0') {
 
     diceResult.textContent = 'No value found , please try adding a value.'
-    console.log("None value found")
+    console.log("None value found");
 
 }
 
