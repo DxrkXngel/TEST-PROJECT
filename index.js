@@ -15,13 +15,17 @@ for(let i = 0; i < diceNumber; i++){
 
 }
 
-diceResult.textContent = `Dice : ${values.join(", ")}`;
-diceImages.innerHTML = images.join('');
+if(diceNumber == '') {
 
-if(diceNumber == '' || '0') {
-
-    diceResult.textContent = 'No value found , please try adding a value.'
+    diceResult.textContent = 'No value found , please try adding a value.';
+    diceImages.textContent = " "
     console.log("None value found");
+
+}
+else{
+
+    diceResult.textContent = `Dice : ${values.join(", ")}`;
+    diceImages.innerHTML = images.join('');
 
 }
 
